@@ -6,8 +6,8 @@
 
 ## 👨‍💻 Contributors
 
-- Anton Kucher <kucherLox@gmail.com>
-- Valeriy Dichansky <dichansky@gmail.com>
+- Anton Kucher <https://github.com/KucherAnton>
+- Valeriy Dichansky <https://github.com/DuckoMan>
 
 ## ⚙ Technologies
 ### 💅 Fornt-end
