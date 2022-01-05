@@ -12,7 +12,7 @@ body {
 	font-size: 120%;
 }
 
-.card {
+.weatherCard {
 	background: #000000d0;
 	color: #ffffff;
 	padding: 2em;
@@ -22,13 +22,13 @@ body {
 	margin: 1em;
 }
 
-.search {
+.weatherCard__search {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.search-bar {
+.weatherCard__search__search-bar {
 	border: none;
 	outline: none;
 	padding: 0.4em 1em;
@@ -40,7 +40,7 @@ body {
 	width: 75%;
 }
 
-.button {
+.weatherCard__search__search-btn {
 	margin: 0.5em;
 	border-radius: 50%;
 	border: none;
@@ -52,7 +52,7 @@ body {
 	color: #ffffff;
 }
 
-.button:hover {
+.weatherCard__search__search-btn:hover {
 	background: #7c7c7c6b;
 	transition: 0.3s ease-in-out;
 }
