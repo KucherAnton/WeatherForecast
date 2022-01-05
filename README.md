@@ -10,7 +10,7 @@
 - Valeriy Dichansky <https://github.com/DuckoMan>
 
 ## ⚙ Technologies
-### 💅 Fornt-end
+### 💅 Front-end
    - JS
    - CSS
    - HTML
