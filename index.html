@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="styles/css.css" />
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Weather Forecast</title>
 	</head>
 	<body>
+		<div class="weatherCard">
+			<div class="weatherCard__search">
+				<input
+					type="text"
+					class="weatherCard__search__search-bar"
+					placeholder="Search"
+				/>
+				<button class="weatherCard__search__search-btn">
+					<svg
+						stroke="currentColor"
+						fill="currentColor"
+						stroke-width="0"
+						viewBox="0 0 1024 1024"
+						height="1.5em"
+						width="1.5em"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path class="path-icon"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="infoTab-main">
+				<h2 class="infoTab-main__element city">Weather in Donetsk</h2>
+				<div class="infoTab-main__element temp">-1°C</div>
+				<img class="infoTab-main__element search-icon" src="" alt="" />
+				<div class="infoTab-main__element description__weather">Rainy</div>
+				<div class="infoTab-main__element humidity">Humidity: 70%</div>
+				<div class="infoTab-main__element wind">Wind: 6.2 km/h</div>
+			</div>
+		</div>
 		<script type="module" src="./js/app.js"></script>
+		<script
+			type="module"
+			src="./js/UI/blocks/mainContent/mainContent.js"
+		></script>
 	</body>
 </html>
